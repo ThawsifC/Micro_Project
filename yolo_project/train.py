@@ -15,6 +15,6 @@ if __name__ == '__main__':   #ensures that model is trained only if clicked run
     )
 
 '''
-Note: The epochs, imgsz, batch and workers solely depend on the specification of the hardware you use. Having a GPU with higher VRAM allows you to increase these values (epochs, imgsz, batch), which was not possible for me
-due to having only 4gb of VRAM on my GPU. This is why each epoch took me approximately 8 minutes, which in total was 8 hours worth of training. The value of workers can be changed based on the CPU being used and the RAM.
+Note: The epochs, imgsz, batch and workers solely depend on the specification of the hardware you use. Having a GPU with higher VRAM allows you to increase these values (epochs, imgsz, batch), which was not possible for us
+due to having only 4gb of VRAM on the GPU. This is why each epoch took us approximately 8 minutes, which in total was 8 hours worth of training. The value of workers can be changed based on the CPU being used and the RAM.
 '''
